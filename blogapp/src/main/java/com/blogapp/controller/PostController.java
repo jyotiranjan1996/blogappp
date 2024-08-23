@@ -36,6 +36,11 @@ public class PostController {
         return new ResponseEntity<>(post, HttpStatus.CREATED);
     }
 
+    public void test()
+    {
+        System.out.println("test purpose");
+    }
+
 //    @DeleteMapping("/{id}")
 //    public ResponseEntity<?> deletePost(@PathVariable long id)
 //    {
