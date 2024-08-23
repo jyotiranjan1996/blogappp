@@ -40,7 +40,6 @@ public class PostController {
     {
         System.out.println("test purpose");
     }
-
 //    @DeleteMapping("/{id}")
 //    public ResponseEntity<?> deletePost(@PathVariable long id)
 //    {
